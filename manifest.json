@@ -5,7 +5,10 @@
   "description": "Pomodoro Timer, der Fokus- und Pausenphasen anzeigt.",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icons/zen.png"
+    "default_icon": "icons/icon.png"
   },
-  "permissions": ["storage"]
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "alarms"]
 }
