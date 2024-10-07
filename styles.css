@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #e3f2fd;
+    color: #2e3440;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  #circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #81c784; /* soft green */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  
+  #circle.red {
+    background-color: #e57373; /* soft red */
+  }
+  
+  #timer {
+    font-size: 2.5rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+  }
+  
+  #start-btn {
+    background-color: #4fc3f7; /* calming blue */
+    color: white;
+  }
+  
+  #start-btn:hover {
+    background-color: #29b6f6; /* slightly deeper blue */
+  }
+  
+  #increase-time, #decrease-time {
+    background-color: #a5d6a7; /* light green */
+    color: #2e3440;
+  }
+  
+  #increase-time:hover, #decrease-time:hover {
+    background-color: #81c784; /* darker green */
+  }
+  
+  textarea {
+    width: 90%;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cfd8dc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    resize: none;
+    font-size: 14px;
+  }
+  
+  #save-note {
+    background-color: #64b5f6; /* light blue */
+    color: white;
+  }
+  
+  #save-note:hover {
+    background-color: #42a5f5;
+  }
+  
+  #note-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  
+  #note-list li {
+    background-color: #f0f4c3; /* soft yellow */
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  

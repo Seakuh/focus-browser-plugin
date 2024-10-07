@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fokus Plugin</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img
+      src="icons/zen.png"
+      alt="Zen Image"
+      style="width: 100px; margin-bottom: 10px"
+    />
+    <textarea id="notes" placeholder="Add your notes here..."></textarea>
+    <button id="save-note">Save Note</button>
+    <button id="archive-notes-btn">View Archived Notes</button>
+    <ul id="archive-list" style="display: none"></ul>
+
+    <ul id="note-list"></ul>
+    <div class="container">
+      <button id="increase-time">⬆️</button>
+      <div id="circle" class="circle">
+        <span id="timer">25:00</span>
+      </div>
+      <button id="decrease-time">⬇️</button>
+      <button id="start-btn">Start</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

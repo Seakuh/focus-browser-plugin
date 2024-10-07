@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Fokus Plugin",
+  "version": "1.0",
+  "description": "Pomodoro Timer, der Fokus- und Pausenphasen anzeigt.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/zen.png"
+  },
+  "permissions": ["storage"]
+}
